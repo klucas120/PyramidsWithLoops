@@ -1,13 +1,13 @@
 /* 
  * Bill Nicholson
- * nicholdw@ucmail.uc.edu
+ * nicholdw@ucmail.uc.edu  
  * Printing pyramids using loops. It kind-of works. 
  * What I really want is
         1
        222
       33333
      4444444
-    555555555 
+    555555555  
 */
 package main;
 
