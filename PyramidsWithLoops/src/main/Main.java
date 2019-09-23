@@ -1,4 +1,14 @@
-/* 
+/*
+ * Kirsten Lucas
+ * lucaskt@mail.uc.edu
+ * Assignment 03
+ * Due Date: 09/26/2019
+ * Description: Pyramids with loops
+ * Citations: https://javaconceptoftheday.com/how-to-create-pyramid-of-numbers-in-java/
+ * Course: IS 4010
+ */
+
+/* Original Documentation via GitHub:
  * Bill Nicholson
  * nicholdw@ucmail.uc.edu  
  * Printing pyramids using loops. It kind-of works. 
@@ -9,18 +19,20 @@
      4444444
     555555555  
 */
+
+
 package main;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		for (int i = 0; i <= 5; i++) {
+		for (int i = 1; i <= 5; i++) {
 			
-        for (int j = 0; j < i; j++) {
-        	System.out.print(""+ i);
+        for (int j = 1; j <= i + i-1; j++) {
+        	System.out.print(i);
             }
-            System.out.println("");
+            System.out.println(" ");
         
 		}
 		
@@ -28,7 +40,7 @@ public class Main {
 
 }
 
-// https://javaconceptoftheday.com/how-to-create-pyramid-of-numbers-in-java/
+// 
 
 
 /*
