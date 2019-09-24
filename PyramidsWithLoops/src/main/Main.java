@@ -1,7 +1,7 @@
 /*
  * Kirsten Lucas
  * lucaskt@mail.uc.edu
- * Assignment 03
+ * Assignment 04
  * Due Date: 09/26/2019
  * Description: Pyramids with loops
  * Citations: https://javaconceptoftheday.com/how-to-create-pyramid-of-numbers-in-java/
