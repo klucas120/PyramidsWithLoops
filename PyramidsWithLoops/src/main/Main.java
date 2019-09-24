@@ -26,29 +26,30 @@ package main;
 public class Main {
 
 	public static void main(String[] args) {
-		
-		for (int i = 1; i <= 5; i++) {
-			
-        for (int j = 1; j <= i + i-1; j++) {
-        	System.out.print(i);
-            }
-            System.out.println(" ");
-        
-		}
-		
-	}
+        int rowCount = 1; // Counts the number of rows beginning at 1
 
+		 for (int i = 1; i <= 5; i++) // Increments the number in each row by 1
+	        {
+	 
+	            for (int j = 0; j <= 5 - i; j++) // Determines the number of spaces at beginning of rows
+	            {
+	                System.out.print(" ");  //Prints i no. of spaces at the beginning of each row
+	                						// before the numbers begin
+	            }
+	 
+	            for (int j = 1; j <= i + i-1; j++) 
+	            {
+	                System.out.print(rowCount);  // Prints 'rowCount' number that specific amount of 
+	                							 // times in each row
+	            }
+	 
+	            System.out.println(); 
+	 
+
+	            rowCount++; // Increments row numbers
+		
+	        }
+	
+	}
 }
-
-// 
-
-
-/*
-public static void main(String[] args) {
-int lines = 5;
-for (int i = 0; i < lines; i++) {
-	for (int j = 0; j < i+1; j++) {
-		System.out.print(j);
-	}
-	System.out.println("");
-*/
+		
